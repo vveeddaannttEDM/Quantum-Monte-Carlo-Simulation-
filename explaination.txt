@@ -1,0 +1,10 @@
+Initialization:
+We use 2 qubits and prepare them in a superposition state using Hadamard gates.
+Trotterized Time Evolution:
+We apply a basic Trotter-Suzuki decomposition to approximate the evolution of a simple Hamiltonian.
+Observable Measurement:
+The observable is chosen as the Z operator on the first qubit. Measurements are repeated to estimate the expectation value.
+Monte Carlo Iterations:
+We run the simulation multiple times to gather statistical data, mimicking the Monte Carlo method described in the paper.
+Analysis:
+The mean and variance of the observable are computed to analyze the accuracy of the simulation.
